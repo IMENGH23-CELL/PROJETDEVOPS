@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Analyzing code quality with SonarQube
-                    sh 'mvn sonar:sonar -Dsonar.projectKey=StudentDashboard -Dsonar.host.url=http://localhost:9000 -Dsonar.login=your_sonar_token'
+                    sh 'mvn sonar:sonar -Dsonar.login=sqa_1f4a1496329ced4de4f8e56a287a02ade4c712e6'
                 }
             }
         }
