@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Project') {
             steps {
                 // Cloning the project from GitHub
-                git 'https://github.com/YassineGarram/DS-Devops.git'
+                git 'https://github.com/IMENGH23-CELL/PROJETDEVOPS.git'
             }
         }
         stage('Build with Maven') {
